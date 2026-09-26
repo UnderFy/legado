@@ -2,22 +2,24 @@
   "name": "Legado",
   "short_name": "Legado",
   "description": "Sua carreira. Sua história. Seu legado.",
-  "start_url": "./index.html",
-  "scope": "./",
+  "start_url": "/legado/index.html",
+  "scope": "/legado/",
   "display": "fullscreen",
   "orientation": "landscape",
   "background_color": "#05080b",
   "theme_color": "#05080b",
   "icons": [
     {
-      "src": "./assets/icon-192.png",
+      "src": "/legado/assets/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "./assets/icon-512.png",
+      "src": "/legado/assets/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
