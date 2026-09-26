@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    >
+
+    <title>Legado — Criar Jogador</title>
+
+    <link rel="stylesheet" href="criar-jogador.css">
+</head>
+
+<body>
+
+    <main class="creation-screen">
+
+        <!-- TOPO -->
+
+        <header class="topbar">
+
+            <button class="back-button" id="backButton">
+                ←
+            </button>
+
+            <div class="top-title">
+                <span>LEGADO</span>
+                <small>NOVA CARREIRA</small>
+            </div>
+
+            <div class="step">
+                01 / 03
+            </div>
+
+        </header>
+
+
+        <!-- CONTEÚDO -->
+
+        <section class="creation-content">
+
+            <!-- ESQUERDA -->
+
+            <div class="player-preview">
+
+                <div class="preview-label">
+                    PRÉVIA DO JOGADOR
+                </div>
+
+                <div class="player-card">
+
+                    <div class="player-silhouette">
+
+                        <div class="head"></div>
+                        <div class="neck"></div>
+
+                        <div class="body">
+                            <span class="shirt-number">10</span>
+                        </div>
+
+                    </div>
+
+                    <div class="player-info-preview">
+
+                        <strong id="previewName">
+                            NOVO JOGADOR
+                        </strong>
+
+                        <span id="previewPosition">
+                            PONTA DIREITA
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <div class="appearance-buttons">
+
+                    <button id="modelsButton">
+                        MODELOS
+                    </button>
+
+                    <button id="cameraButton">
+                        USAR MEU ROSTO
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- DIREITA -->
+
+            <div class="player-form">
+
+                <div class="section-title">
+                    DADOS DO JOGADOR
+                </div>
+
+
+                <div class="form-grid">
+
+                    <div class="field field-large">
+
+                        <label for="playerName">
+                            NOME
+                        </label>
+
+                        <input
+                            type="text"
+                            id="playerName"
+                            placeholder="Digite seu nome"
+                            maxlength="25"
+                        >
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <label for="playerNickname">
+                            APELIDO
+                        </label>
+
+                        <input
+                            type="text"
+                            id="playerNickname"
+                            placeholder="Apelido"
+                            maxlength="16"
+                        >
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <label for="playerAge">
+                            IDADE
+                        </label>
+
+                        <select id="playerAge">
+
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18" selected>18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <label for="nationality">
+                            NACIONALIDADE
+                        </label>
+
+                        <select id="nationality">
+
+                            <option value="Brasil">
+                                Brasil
+                            </option>
+
+                            <option value="Argentina">
+                                Argentina
+                            </option>
+
+                            <option value="Portugal">
+                                Portugal
+                            </option>
+
+                            <option value="Espanha">
+                                Espanha
+                            </option>
+
+                            <option value="França">
+                                França
+                            </option>
+
+                            <option value="Inglaterra">
+                                Inglaterra
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <label for="position">
+                            POSIÇÃO
+                        </label>
+
+                        <select id="position">
+
+                            <option value="Goleiro">
+                                Goleiro
+                            </option>
+
+                            <option
