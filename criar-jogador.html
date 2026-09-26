@@ -207,4 +207,177 @@
                                 Goleiro
                             </option>
 
-                            <option
+                            <option value="Zagueiro">
+                                Zagueiro
+                            </option>
+
+                            <option value="Lateral">
+                                Lateral
+                            </option>
+
+                            <option value="Volante">
+                                Volante
+                            </option>
+
+                            <option value="Meia">
+                                Meia
+                            </option>
+
+                            <option value="Ponta Direita" selected>
+                                Ponta Direita
+                            </option>
+
+                            <option value="Ponta Esquerda">
+                                Ponta Esquerda
+                            </option>
+
+                            <option value="Atacante">
+                                Atacante
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <label for="foot">
+                            PÉ DOMINANTE
+                        </label>
+
+                        <select id="foot">
+
+                            <option value="Direito">
+                                Direito
+                            </option>
+
+                            <option value="Esquerdo">
+                                Esquerdo
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <label for="height">
+                            ALTURA
+                        </label>
+
+                        <select id="height">
+
+                            <option value="170">1,70 m</option>
+                            <option value="175">1,75 m</option>
+                            <option value="180" selected>1,80 m</option>
+                            <option value="185">1,85 m</option>
+                            <option value="190">1,90 m</option>
+                            <option value="195">1,95 m</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="field">
+
+                        <label for="weight">
+                            PESO
+                        </label>
+
+                        <select id="weight">
+
+                            <option value="65">65 kg</option>
+                            <option value="70">70 kg</option>
+                            <option value="75" selected>75 kg</option>
+                            <option value="80">80 kg</option>
+                            <option value="85">85 kg</option>
+                            <option value="90">90 kg</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div class="bottom-area">
+
+                    <div class="warning" id="formMessage"></div>
+
+                    <button class="continue-button" id="createPlayer">
+                        CRIAR JOGADOR
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- MODAL DE MODELOS -->
+
+    <div class="modal hidden" id="modelsModal">
+
+        <div class="modal-box">
+
+            <div class="modal-header">
+
+                <strong>ESCOLHA O MODELO</strong>
+
+                <button id="closeModels">
+                    ×
+                </button>
+
+            </div>
+
+
+            <div class="models-grid">
+
+                <button class="model selected" data-model="01">
+                    <div class="model-face face-one"></div>
+                    <span>01</span>
+                </button>
+
+                <button class="model" data-model="02">
+                    <div class="model-face face-two"></div>
+                    <span>02</span>
+                </button>
+
+                <button class="model" data-model="03">
+                    <div class="model-face face-three"></div>
+                    <span>03</span>
+                </button>
+
+                <button class="model" data-model="04">
+                    <div class="model-face face-four"></div>
+                    <span>04</span>
+                </button>
+
+                <button class="model" data-model="05">
+                    <div class="model-face face-five"></div>
+                    <span>05</span>
+                </button>
+
+                <button class="model" data-model="06">
+                    <div class="model-face face-six"></div>
+                    <span>06</span>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="criar-jogador.js"></script>
+
+</body>
+</html>
