@@ -601,3 +601,92 @@ button {
         letter-spacing: 4px;
     }
 }
+
+/* =========================================
+   AJUSTE PARA CELULAR EM MODO PAISAGEM
+   ========================================= */
+
+@media (orientation: landscape) and (max-height: 800px) {
+
+    body {
+        overflow-y: auto;
+    }
+
+    .create-player {
+        min-height: 100vh;
+    }
+
+    /* TOPO */
+    .topbar {
+        height: 78px;
+        padding: 0 40px;
+    }
+
+    .topbar .back-button {
+        width: 58px;
+        height: 58px;
+    }
+
+    .topbar h1 {
+        font-size: 30px;
+    }
+
+    .topbar p {
+        font-size: 12px;
+    }
+
+    /* CONTEÚDO PRINCIPAL */
+    .player-creation {
+        padding: 34px 40px 40px;
+        gap: 40px;
+    }
+
+    /* TÍTULOS */
+    .section-title {
+        font-size: 15px;
+        margin-bottom: 14px;
+    }
+
+    /* PRÉVIA */
+    .player-preview {
+        height: 420px;
+    }
+
+    /* FORMULÁRIO */
+    .player-form {
+        gap: 18px;
+    }
+
+    .form-row {
+        gap: 18px;
+    }
+
+    .form-group label {
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+
+    .form-group input,
+    .form-group select {
+        height: 58px;
+        padding: 0 18px;
+        font-size: 16px;
+    }
+
+    /* BOTÕES */
+    .model-buttons {
+        margin-top: 14px;
+    }
+
+    .model-buttons button {
+        height: 48px;
+        font-size: 12px;
+    }
+
+    /* REDUZ ESPAÇAMENTO GERAL */
+    .preview-section,
+    .data-section {
+        transform: scale(0.94);
+        transform-origin: top left;
+    }
+}
