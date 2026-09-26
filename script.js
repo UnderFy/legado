@@ -3,7 +3,7 @@ const continueCareer = document.getElementById("continueCareer");
 const settings = document.getElementById("settings");
 
 newCareer.addEventListener("click", () => {
-    alert("A criação do jogador será adicionada no próximo passo.");
+    window.location.href = "criar-jogador.html";
 });
 
 continueCareer.addEventListener("click", () => {
